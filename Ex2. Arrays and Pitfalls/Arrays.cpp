@@ -1,7 +1,7 @@
 #include <iostream>
 
-// 1) los de verschillende undefined behaviour errors op
-//    je kan de functies callen in main
+// 1) solve all behaviour erros
+//    you can call the functions in main()
 
 void UndefinedBehaviour1()
 {
@@ -23,7 +23,7 @@ void UndefinedBehaviour2()
 	}
 }
 
-void UndefinedBehaviour4()
+void UndefinedBehaviour3()
 {
 	int arr[10];
 	for (int i = 0; i < 10; i++)
@@ -34,7 +34,7 @@ void UndefinedBehaviour4()
 	delete[] arr;
 }
 
-void UndefinedBehaviour5()
+void UndefinedBehaviour4()
 {
 	int arr[10];
 	for (int i = 0; i < 20; i++)
@@ -44,7 +44,7 @@ void UndefinedBehaviour5()
 	}
 }
 
-// 2) haal een heap allocated array uit deze function
+// 2) retrieve a heap allocated array from this function
 int* function()
 {
 	int arr[20];
@@ -55,8 +55,8 @@ int* function()
 	return arr;
 }
 
-// 3) haal een stack allocated array uit function zonder dat het verwijderd wordt door de stack pointer
-//    (TIP: maak function een void function en gebruik een reference)
+// 3) retrieve a stack allocated array from this function
+//    (TIP: make the function a void function and use a reference)
 int* function2()
 {
 	int arr[20];

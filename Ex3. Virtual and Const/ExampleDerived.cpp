@@ -4,7 +4,6 @@
 ExampleDerived::ExampleDerived()
 {
 	std::cout << "Derived: constructor" << std::endl;
-	
 }
 
 void ExampleDerived::PureVirtual()

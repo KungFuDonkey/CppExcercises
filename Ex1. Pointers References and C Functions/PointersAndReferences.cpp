@@ -35,9 +35,9 @@ int main()
 
 	// 8) call LogByReference with i
 
-	// 9) call LogExampleClassByPointer with ExampleClass
+	// 9) call LogExampleClassByPointer with ExampleClass and log the value of the class
 
-	// 10) call LogExampleClassByReference with ExampleClass
+	// 10) call LogExampleClassByReference with ExampleClass and log the value of the class
 
 	return 0;
 }
