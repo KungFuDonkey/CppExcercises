@@ -3,6 +3,7 @@
 // 1) solve all behaviour erros
 //    you can call the functions in main()
 
+// displays 0 to 19 in an array
 void UndefinedBehaviour1()
 {
 	int* arr = new int[20];
@@ -14,6 +15,7 @@ void UndefinedBehaviour1()
 	}
 }
 
+// displays 20 zeros in an array
 void UndefinedBehaviour2()
 {
 	int arr[20];
@@ -23,6 +25,7 @@ void UndefinedBehaviour2()
 	}
 }
 
+// displays 0 to 9 in an array
 void UndefinedBehaviour3()
 {
 	int arr[10];
@@ -34,6 +37,7 @@ void UndefinedBehaviour3()
 	delete[] arr;
 }
 
+// displays 0 to 9 in an arrayW
 void UndefinedBehaviour4()
 {
 	int arr[10];
